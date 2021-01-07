@@ -1,0 +1,4 @@
+private-*
+/build
+/node_modules
+.eslintcache
