@@ -14,8 +14,12 @@ const Category = (props) => {
 
   return (
     <div className='category' id={props.id}>
-      <h1>{props.title}</h1>
-        {nominees}
+      <span className='category-header'>
+        <h1>{props.title}</h1>
+      </span>
+      <div className="nominees-container">
+          {nominees}
+      </div>
     </div>
   )
 }

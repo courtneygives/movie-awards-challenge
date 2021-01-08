@@ -1,0 +1,8 @@
+.ballot {
+  border: 1px solid #fff;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 2%;
+  max-width: 100%;
+}

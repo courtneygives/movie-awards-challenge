@@ -1,0 +1,17 @@
+
+.category {
+width: 100%;
+}
+
+.category-header {
+  background-color: #fff;
+  color: #0D2436;
+  padding: 3px;
+}
+
+.nominees-container {
+  display: flex;
+  max-width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+}

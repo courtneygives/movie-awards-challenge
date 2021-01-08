@@ -1,5 +1,13 @@
 .nominee {
+  border: 1px solid yellow;
+  max-height: 500px;
+  max-width: 400px;
+  margin: 5px;
+}
 
+img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .nominee.selected {

@@ -1,5 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap';
+
 .App {
   text-align: center;
+  font-family: roboto;
+  background-color: #0D2436;
+  color: #fff;
 }
 
 .App-logo {
@@ -8,8 +13,6 @@
 }
 
 .App-header {
-  background-color: #50B074;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
