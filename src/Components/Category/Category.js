@@ -1,4 +1,5 @@
 import React, { useState} from 'react';
+import './Category.css';
 import Nominee from '../Nominee/Nominee';
 
 const Category = (props) => {
