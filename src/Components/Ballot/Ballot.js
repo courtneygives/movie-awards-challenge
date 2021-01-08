@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Api from '../Api/Api';
-import Category from './Category'
-
+import './Ballot.css';
+import Api from '../../Api/Api';
+import Category from '../Category/Category'
 
 const Ballot = () => {
   const [data, setData] = useState({items:[]});
@@ -13,7 +13,6 @@ const Ballot = () => {
   let categories = data.items.map((category) =>
       <Category {...category} key={category.id}/>
     )
-
 
   return (
     <div className='ballot'>
