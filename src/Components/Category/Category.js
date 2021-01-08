@@ -14,9 +14,9 @@ const Category = (props) => {
 
   return (
     <div className='category' id={props.id}>
-      <span className='category-header'>
+      <header className='category-header'>
         <h1>{props.title}</h1>
-      </span>
+      </header>
       <div className="nominees-container">
           {nominees}
       </div>

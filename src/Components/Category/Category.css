@@ -3,15 +3,17 @@
 width: 100%;
 }
 
-.category-header {
+.category header {
   background-color: #fff;
   color: #0D2436;
-  padding: 3px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  width: 100%;
 }
 
 .nominees-container {
   display: flex;
   max-width: 100%;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
