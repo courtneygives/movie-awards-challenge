@@ -9,8 +9,8 @@ if (props.open) {
   return (
     <div className={className}>
       <div className='message-box'>
-        We've received your ballot. Thank you for voting!
-        <button onClick={props.onClose}>X</button>
+        <p>We've received your ballot. Thank you for voting!</p>
+        <span className='close-modal' onClick={props.onClose}>X</span>
       </div>
     </div>
   )
