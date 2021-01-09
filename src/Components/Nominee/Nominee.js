@@ -7,12 +7,15 @@ if (props.isSelected) {
   className = 'nominee selected'
 }
   return (
-    <div className={className} id={props.id}>
+    <div
+    className={className}
+    id={props.id}
+    onClick={() => props.setSelected(props.id)}
+    >
       <h2>{props.title}</h2>
-      <img src={props.photoUrL} alt={props.id} />
-      <button onClick={() => props.setSelected(props.id)}>
-       Vote
-     </button>
+      <div className='nominee-poster'>
+        <img src={props.photoUrL} alt={props.id} />
+      </div>
     </div>
   )
 }

@@ -1,15 +1,27 @@
 .nominee {
-  border: 1px solid yellow;
+  background-color: #fff;
+  color: #0D2436;
+  margin: 5px;
   max-height: 500px;
   max-width: 400px;
-  margin: 5px;
+  width: 500px;
+  height: 650px;
+}
+
+.nominee img {
+max-height: 400px;
+max-width: 350px;
 }
 
 img {
-  max-height: 100%;
-  max-width: 100%;
+  max-width: 330px;
+  object-fit: cover;
 }
 
 .nominee.selected {
-  border: 1px solid red;
+  background-color: #009B86;
+}
+
+.nominee:hover {
+
 }

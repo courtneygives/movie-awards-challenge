@@ -30,7 +30,11 @@ const Ballot = () => {
     <div className='ballot'>
       {categories}
 
-      <button type="button" onClick={handleOpen}>
+      <button
+      type='button'
+      className='submit-button'
+      onClick={handleOpen}
+      >
         Submit Ballot
       </button>
       <Modal open={open} onClose={handleClose}/>

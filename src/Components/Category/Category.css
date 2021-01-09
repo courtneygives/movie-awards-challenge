@@ -1,19 +1,34 @@
 
 .category {
-width: 100%;
+  width: 100%;
+  margin: 50px 0;
+  margin: auto;
+  max-width: 410px;
 }
 
 .category header {
-  background-color: #fff;
+  background-color: #ccc;
   color: #0D2436;
   margin-bottom: 20px;
-  padding: 10px 0;
+  padding: 5px 0;
   width: 100%;
 }
 
 .nominees-container {
   display: flex;
-  max-width: 100%;
   flex-flow: row wrap;
   justify-content: flex-start;
+  align-content: space-around;
+}
+
+@media screen and (min-width: 820px) {
+  .category {
+    max-width: 820px;
+  }
+}
+
+@media screen and (min-width: 1230px) {
+  .category {
+    max-width: 1230px;
+  }
 }
